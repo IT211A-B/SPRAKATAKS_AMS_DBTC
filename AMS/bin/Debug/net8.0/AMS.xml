@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AMS</name>
+    </assembly>
+    <members>
+        <member name="T:AMS.Controllers.AttendancesController">
+            <summary>
+            Manages attendance records in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.GetAttendances(System.Int32,System.Int32)">
+            <summary>Get all attendance records with optional pagination.</summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Records per page (default: 10, max: 100)</param>
+            <response code="200">Returns paginated list of attendance records</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.GetAttendance(System.Int32)">
+            <summary>Get a single attendance record by ID.</summary>
+            <response code="200">Returns the attendance record</response>
+            <response code="404">Attendance record not found</response>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.GetByClass(System.Int32)">
+            <summary>Get all attendance records for a specific class.</summary>
+            <param name="classId">The class ID to filter by</param>
+            <response code="200">Returns attendance records for the class</response>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.CreateAttendance(AttendanceManagementSystem.DTOs.AttendanceDTO)">
+            <summary>Mark attendance for a student.</summary>
+            <response code="200">Attendance marked successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.UpdateAttendance(System.Int32,AttendanceManagementSystem.DTOs.AttendanceDTO)">
+            <summary>Update an attendance record.</summary>
+            <response code="204">Updated successfully</response>
+            <response code="404">Attendance record not found</response>
+        </member>
+        <member name="M:AMS.Controllers.AttendancesController.DeleteAttendance(System.Int32)">
+            <summary>Delete an attendance record by ID.</summary>
+            <response code="204">Deleted successfully</response>
+            <response code="404">Attendance record not found</response>
+        </member>
+        <member name="T:AMS.Controllers.ClassesController">
+            <summary>
+            Manages class sections in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.ClassesController.GetClasses(System.Int32,System.Int32)">
+            <summary>Get all classes with optional pagination.</summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Records per page (default: 10, max: 100)</param>
+            <response code="200">Returns paginated list of classes</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.ClassesController.GetClass(System.Int32)">
+            <summary>Get a single class by ID.</summary>
+            <response code="200">Returns the class</response>
+            <response code="404">Class not found</response>
+        </member>
+        <member name="M:AMS.Controllers.ClassesController.CreateClass(AttendanceManagementSystem.DTOs.ClassDTO)">
+            <summary>Create a new class section.</summary>
+            <response code="200">Class created successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.ClassesController.UpdateClass(System.Int32,AttendanceManagementSystem.DTOs.ClassDTO)">
+            <summary>Update an existing class section.</summary>
+            <response code="204">Updated successfully</response>
+            <response code="404">Class not found</response>
+        </member>
+        <member name="M:AMS.Controllers.ClassesController.DeleteClass(System.Int32)">
+            <summary>Delete a class by ID.</summary>
+            <response code="204">Deleted successfully</response>
+            <response code="404">Class not found</response>
+        </member>
+        <member name="T:AMS.Controllers.CoursesController">
+            <summary>
+            Manages course offerings in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.CoursesController.GetCourses(System.Int32,System.Int32)">
+            <summary>
+            Get all courses with optional pagination.
+            </summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Number of records per page (default: 10, max: 100)</param>
+            <returns>Paginated list of courses with teacher and student information.</returns>
+            <response code="200">Returns the paginated list of courses</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.CoursesController.GetCourse(System.Int32)">
+            <summary>
+            Get a single course by ID.
+            </summary>
+            <param name="id">The course ID</param>
+            <returns>The course record with teacher and enrolled students.</returns>
+            <response code="200">Returns the course</response>
+            <response code="404">Course not found</response>
+        </member>
+        <member name="M:AMS.Controllers.CoursesController.CreateCourse(AttendanceManagementSystem.DTOs.CourseDTO)">
+            <summary>
+            Create a new course.
+            </summary>
+            <param name="dto">Course data: CourseName, TeacherId</param>
+            <returns>The newly created course record.</returns>
+            <response code="200">Course created successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.CoursesController.UpdateCourse(System.Int32,AttendanceManagementSystem.DTOs.CourseDTO)">
+            <summary>
+            Update an existing course.
+            </summary>
+            <param name="id">The course ID to update</param>
+            <param name="dto">Updated course data</param>
+            <response code="204">Course updated successfully</response>
+            <response code="404">Course not found</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.CoursesController.DeleteCourse(System.Int32)">
+            <summary>
+            Delete a course by ID.
+            </summary>
+            <param name="id">The course ID to delete</param>
+            <response code="204">Course deleted successfully</response>
+            <response code="404">Course not found</response>
+        </member>
+        <member name="T:AMS.Controllers.EnrollmentsController">
+            <summary>
+            Manages student enrollments in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.EnrollmentsController.GetEnrollments(System.Int32,System.Int32)">
+            <summary>Get all enrollments with optional pagination.</summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Records per page (default: 10, max: 100)</param>
+            <response code="200">Returns paginated list of enrollments</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.EnrollmentsController.GetEnrollment(System.Int32)">
+            <summary>Get a single enrollment by ID.</summary>
+            <response code="200">Returns the enrollment</response>
+            <response code="404">Enrollment not found</response>
+        </member>
+        <member name="M:AMS.Controllers.EnrollmentsController.CreateEnrollment(AttendanceManagementSystem.DTOs.EnrollmentDTO)">
+            <summary>Create a new enrollment.</summary>
+            <response code="200">Enrollment created successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.EnrollmentsController.UpdateEnrollment(System.Int32,AttendanceManagementSystem.DTOs.EnrollmentDTO)">
+            <summary>Update an existing enrollment.</summary>
+            <response code="204">Updated successfully</response>
+            <response code="404">Enrollment not found</response>
+        </member>
+        <member name="M:AMS.Controllers.EnrollmentsController.DeleteEnrollment(System.Int32)">
+            <summary>Delete an enrollment by ID.</summary>
+            <response code="204">Deleted successfully</response>
+            <response code="404">Enrollment not found</response>
+        </member>
+        <member name="T:AMS.Controllers.StudentsController">
+            <summary>
+            Manages student records in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.StudentsController.GetStudents(System.Int32,System.Int32)">
+            <summary>
+            Get all students with optional pagination.
+            </summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Number of records per page (default: 10, max: 100)</param>
+            <returns>Paginated list of students with their course information.</returns>
+            <response code="200">Returns the paginated list of students</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.StudentsController.GetStudent(System.Int32)">
+            <summary>
+            Get a single student by ID.
+            </summary>
+            <param name="id">The student ID</param>
+            <returns>The student record with course information.</returns>
+            <response code="200">Returns the student</response>
+            <response code="404">Student not found</response>
+        </member>
+        <member name="M:AMS.Controllers.StudentsController.CreateStudent(AttendanceManagementSystem.DTOs.StudentDTO)">
+            <summary>
+            Create a new student.
+            </summary>
+            <param name="dto">Student data: FirstName, LastName, Email, CourseId</param>
+            <returns>The newly created student record.</returns>
+            <response code="200">Student created successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.StudentsController.UpdateStudent(System.Int32,AttendanceManagementSystem.DTOs.StudentDTO)">
+            <summary>
+            Update an existing student.
+            </summary>
+            <param name="id">The student ID to update</param>
+            <param name="dto">Updated student data</param>
+            <response code="204">Student updated successfully</response>
+            <response code="404">Student not found</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.StudentsController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete a student by ID.
+            </summary>
+            <param name="id">The student ID to delete</param>
+            <response code="204">Student deleted successfully</response>
+            <response code="404">Student not found</response>
+        </member>
+        <member name="T:AMS.Controllers.TeachersController">
+            <summary>
+            Manages teacher (faculty) records in the DBTC Attendance Management System.
+            </summary>
+        </member>
+        <member name="M:AMS.Controllers.TeachersController.GetTeachers(System.Int32,System.Int32)">
+            <summary>
+            Get all teachers with optional pagination.
+            </summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Number of records per page (default: 10, max: 100)</param>
+            <returns>Paginated list of all teachers.</returns>
+            <response code="200">Returns the paginated list of teachers</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:AMS.Controllers.TeachersController.GetTeacher(System.Int32)">
+            <summary>
+            Get a single teacher by ID.
+            </summary>
+            <param name="id">The teacher ID</param>
+            <returns>The teacher record.</returns>
+            <response code="200">Returns the teacher</response>
+            <response code="404">Teacher not found</response>
+        </member>
+        <member name="M:AMS.Controllers.TeachersController.CreateTeacher(AttendanceManagementSystem.DTOs.TeacherDTO)">
+            <summary>
+            Create a new teacher.
+            </summary>
+            <param name="dto">Teacher data: FirstName, LastName, Email</param>
+            <returns>The newly created teacher record.</returns>
+            <response code="200">Teacher created successfully</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.TeachersController.UpdateTeacher(System.Int32,AttendanceManagementSystem.DTOs.TeacherDTO)">
+            <summary>
+            Update an existing teacher.
+            </summary>
+            <param name="id">The teacher ID to update</param>
+            <param name="dto">Updated teacher data</param>
+            <response code="204">Teacher updated successfully</response>
+            <response code="404">Teacher not found</response>
+            <response code="400">Invalid or missing fields</response>
+        </member>
+        <member name="M:AMS.Controllers.TeachersController.DeleteTeacher(System.Int32)">
+            <summary>
+            Delete a teacher by ID.
+            </summary>
+            <param name="id">The teacher ID to delete</param>
+            <response code="204">Teacher deleted successfully</response>
+            <response code="404">Teacher not found</response>
+        </member>
+        <member name="T:AMS.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:AMS.Migrations.AdditionalModels">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.AdditionalModels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.AdditionalModels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AMS.Migrations.AdditionalModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
