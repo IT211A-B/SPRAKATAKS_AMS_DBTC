@@ -1,0 +1,203 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Attendance Manager – Settings";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/settings.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- ── Sidebar ─────────────────────────────────────────────────── -->
+    <aside>
+        <div class="brand">
+            <div class="brand-icon">
+                <img src="~/images/dbtc-logo.png" alt="DBTC Logo" style="width:28px;height:28px;object-fit:contain;border-radius:6px;" />
+            </div>
+            <div>
+                <div class="brand-name">Attendance</div>
+                <div class="brand-sub">Manager Pro</div>
+            </div>
+        </div>
+
+        <nav>
+            <a class="nav-item" href="/Account/Dashboard"><span class="nav-icon">⊞</span> Dashboard</a>
+            <a class="nav-item" href="/Account/Students"><span class="nav-icon">🎓</span> Students</a>
+            <a class="nav-item" href="/Account/Teachers"><span class="nav-icon">👨‍🏫</span> Teachers</a>
+            <a class="nav-item" href="/Account/Courses"><span class="nav-icon">📚</span> Courses</a>
+            <a class="nav-item" href="/Account/Classes"><span class="nav-icon">🏫</span> Classes</a>
+            <a class="nav-item" href="/Account/Enrollment"><span class="nav-icon">📋</span> Enrollment</a>
+            <a class="nav-item" href="/Account/Attendance"><span class="nav-icon">✓</span> Attendance</a>
+            <a class="nav-item" href="/Account/Reports"><span class="nav-icon">📊</span> Reports</a>
+            <a class="nav-item active" href="/Account/Settings"><span class="nav-icon">⚙</span> Settings</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-card">
+                <div class="avatar">JG</div>
+                <div>
+                    <div class="user-name">James Gulfan</div>
+                    <div class="user-role">Administrator</div>
+                </div>
+            </div>
+            <form action="/Account/Logout" method="post">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="logout-btn">↩ Logout</button>
+            </form>
+        </div>
+    </aside>
+
+    <!-- ── Main ────────────────────────────────────────────────────── -->
+    <main>
+
+        <div>
+            <div class="page-title">⚙ Settings</div>
+            <div class="page-sub">Manage your attendance system preferences</div>
+        </div>
+
+        <!-- School Information -->
+        <div class="sect">
+            <div class="sect-header">
+                <div class="sh-left">
+                    <div class="sh-icon" style="background:var(--blue-bg);color:var(--blue)">🏫</div>
+                    <div>
+                        <div class="sh-title">School Information</div>
+                        <div class="sh-sub">Basic institution details</div>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">School Name</div><div class="sr-cur">Don Bosco Technical College Cebu City</div></div>
+                <button class="edit-btn" onclick="editSetting('School Name','Don Bosco Technical College Cebu City')">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">School Domain</div><div class="sr-cur">@@dbtc-cebu.edu.ph</div></div>
+                <button class="edit-btn" onclick="editSetting('School Domain','@@dbtc-cebu.edu.ph')">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Academic Year</div><div class="sr-cur">2025 – 2026</div></div>
+                <button class="edit-btn" onclick="editSetting('Academic Year','2025-2026')">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Semester</div><div class="sr-cur">2nd Semester</div></div>
+                <button class="edit-btn" onclick="editSetting('Semester','2nd Semester')">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Administrator Email</div><div class="sr-cur">admin@@dbtc-cebu.edu.ph</div></div>
+                <button class="edit-btn" onclick="editSetting('Admin Email','admin@@dbtc-cebu.edu.ph')">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Contact Number</div><div class="sr-cur">+63 32 234 5678</div></div>
+                <button class="edit-btn" onclick="editSetting('Contact Number','+63 32 234 5678')">Edit</button>
+            </div>
+        </div>
+
+        <!-- Attendance Rules -->
+        <div class="sect">
+            <div class="sect-header">
+                <div class="sh-left">
+                    <div class="sh-icon" style="background:rgba(61,107,32,.12);color:var(--accent)">⏰</div>
+                    <div>
+                        <div class="sh-title">Attendance Rules</div>
+                        <div class="sh-sub">Configure timing and requirements</div>
+                    </div>
+                </div>
+                <button class="edit-all">Edit All</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Class Start Time</div><div class="sr-cur">7:30 AM — Monday to Friday</div></div>
+                <button class="edit-btn">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Late Arrival Threshold</div><div class="sr-cur">Mark as late after: 15 minutes</div></div>
+                <button class="edit-btn">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Minimum Attendance Requirement</div><div class="sr-cur">Required: 75% per subject</div></div>
+                <button class="edit-btn">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Weekend Days</div><div class="sr-cur">Saturday &amp; Sunday — no classes</div></div>
+                <button class="edit-btn">Edit</button>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Auto-Lock Attendance</div><div class="sr-cur">Lock sheet after: 24 hours</div></div>
+                <label class="toggle"><input type="checkbox" checked /><span class="tog-sl"></span></label>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Allow Late Editing</div><div class="sr-cur">Requires admin approval</div></div>
+                <label class="toggle"><input type="checkbox" checked /><span class="tog-sl"></span></label>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div class="sect">
+            <div class="sect-header">
+                <div class="sh-left">
+                    <div class="sh-icon" style="background:var(--amber-bg);color:var(--amber)">🔔</div>
+                    <div>
+                        <div class="sh-title">Notifications</div>
+                        <div class="sh-sub">Alert and messaging preferences</div>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Email Alerts for Absences</div><div class="sr-cur">Send to guardian email on absence</div></div>
+                <label class="toggle"><input type="checkbox" checked /><span class="tog-sl"></span></label>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">SMS Notifications</div><div class="sr-cur">Send SMS via registered PH number</div></div>
+                <label class="toggle"><input type="checkbox" /><span class="tog-sl"></span></label>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Low Attendance Warning</div><div class="sr-cur">Alert at 80% — before failing threshold</div></div>
+                <label class="toggle"><input type="checkbox" checked /><span class="tog-sl"></span></label>
+            </div>
+            <div class="setting-row">
+                <div><div class="sr-label">Daily Summary Report</div><div class="sr-cur">Email summary to admin at 5:00 PM</div></div>
+                <label class="toggle"><input type="checkbox" /><span class="tog-sl"></span></label>
+            </div>
+        </div>
+
+        <!-- Data Management -->
+        <div class="data-sect">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px">
+                <div>
+                    <div class="ds-title">🗄 Data Management</div>
+                    <div class="ds-sub">Backup, export, and reset system data</div>
+                    <div class="ds-btns">
+                        <button class="ds-btn btn-bk" onclick="alert('Backup started…')">🗄 Backup Database</button>
+                        <button class="ds-btn btn-ex" onclick="alert('Exporting all data…')">📤 Export All Data</button>
+                    </div>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:8px;min-width:180px">
+                    <div style="font-size:11px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.06em">System Info</div>
+                    <div style="font-size:12px;color:var(--text3)">Version: <span style="color:var(--text2);font-weight:600">v2.4.1</span></div>
+                    <div style="font-size:12px;color:var(--text3)">Last backup: <span style="color:var(--text2);font-weight:600">Mar 17, 2026</span></div>
+                    <div style="font-size:12px;color:var(--text3)">Time zone: <span style="color:var(--text2);font-weight:600">UTC+8 (PST)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom actions -->
+        <div class="bottom-actions">
+            <button class="reset-btn" onclick="if(confirm('Reset all settings to defaults?'))alert('Reset complete.')">Reset to Defaults</button>
+            <button class="save-btn" onclick="alert('Settings saved successfully!')">Save Changes</button>
+        </div>
+
+    </main>
+
+    <script>
+        function editSetting(label, current) {
+            const v = prompt(`Edit ${label}:`, current);
+            if (v !== null) alert(`${label} updated to: ${v}`);
+        }
+    </script>
+
+</body>
+</html>
