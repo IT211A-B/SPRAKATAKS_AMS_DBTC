@@ -1,6 +1,0 @@
-@AMS_HostAddress = http://localhost:5224
-
-GET {{AMS_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
