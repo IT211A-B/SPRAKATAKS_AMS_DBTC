@@ -1,0 +1,133 @@
+﻿@model Frontend.Models.LoginViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "DBTC Attendance Management System";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="geo-ring"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="page-wrapper">
+        <div class="login-card">
+
+            <div class="brand-panel">
+                <div class="logo-area">
+                    <div class="logo-ring">
+                        <img src="~/images/dbtc-logo.png" alt="DBTC Logo" />
+                    </div>
+                    <div class="logo-text">
+                        <span class="school">Don Bosco Technical College</span>
+                        <span class="campus">Cebu Campus</span>
+                    </div>
+                </div>
+                <div class="brand-main">
+                    <span class="brand-tag">Attendance Portal</span>
+                    <h1 class="brand-headline">
+                        Track. Monitor.<br />
+                        <span>Empower</span> Learning.
+                    </h1>
+                    <p class="brand-desc">
+                        A unified platform for real-time attendance tracking
+                        across all departments and programs.
+                    </p>
+                </div>
+                <div class="brand-stats">
+                    <div class="stat">
+                        <span class="stat-num">4,200+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">180+</span>
+                        <span class="stat-label">Faculty</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">98%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-panel">
+                <div class="form-header">
+                    <div class="form-eyebrow">Secure Access</div>
+                    <h2 class="form-title">Sign In to Your Account</h2>
+                    <p class="form-subtitle">Use your institutional credentials to continue.</p>
+                </div>
+
+                @if (ViewBag.ShowErrors == true)
+                {
+                    <div class="alert-error" role="alert">
+                        @Html.ValidationSummary(false, null, new { @class = "validation-summary" })
+                    </div>
+                }
+
+                <form method="post" action="/Account/Login">
+                    @Html.AntiForgeryToken()
+
+                    <input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl" />
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="Email">Username</label>
+                            <div class="input-wrap">
+                                <input type="text"
+                                       id="Email"
+                                       name="Email"
+                                       value="@Model.Email"
+                                       placeholder="Enter your username"
+                                       autocomplete="username" />
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label for="Password">Password</label>
+                            <div class="input-wrap">
+                                <input type="password"
+                                       id="password"
+                                       name="Password"
+                                       placeholder="Enter your password"
+                                       autocomplete="current-password" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="remember">
+                            <input type="checkbox" name="RememberMe" />
+                            <span>Remember me</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-signin" id="btn-signin">
+                        Sign In to Portal
+                    </button>
+
+                </form>
+
+                <div class="form-footer">
+                    <div class="footer-dot"></div>
+                    <p>
+                        Having trouble? Contact
+                        <a href="mailto:itsupport@@dbtc-cebu.edu.ph">IT Support</a>
+                        or visit the Registrar's Office.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
