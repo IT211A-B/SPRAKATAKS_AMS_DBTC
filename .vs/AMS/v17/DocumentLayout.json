@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\SPRAKATAKS\\BackEnd\\AMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams\\dto\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams\\dto\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|c:\\sprakataks\\backend\\ams\\ams\\ams.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{BD345070-3755-494F-9C22-A2B306A8CFE7}|AMS\\AMS.csproj|solutionrelative:ams\\ams.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
@@ -126,59 +126,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "AMS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "AMS\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T06:22:14.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Program.cs",
               "RelativeDocumentMoniker": "AMS\\Program.cs",
               "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Program.cs",
               "RelativeToolTip": "AMS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T08:49:39.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AMS",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeToolTip": "AMS\\AMS.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-20T07:14:08.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20260319025931_InitialMigration.cs",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\20260319025931_InitialMigration.cs",
-              "RelativeDocumentMoniker": "AMS\\Migrations\\20260319025931_InitialMigration.cs",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\20260319025931_InitialMigration.cs",
-              "RelativeToolTip": "AMS\\Migrations\\20260319025931_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:59:31.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\AppDBContext.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\AppDBContext.cs",
@@ -190,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AMS\\Properties\\launchSettings.json",
@@ -202,7 +167,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AMS.csproj",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeToolTip": "AMS\\AMS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T02:33:29.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Attendance.cs",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Attendance.cs",
+              "RelativeToolTip": "AMS\\AMS\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T08:52:18.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "AMS\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "AMS\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:07:25.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260319025931_InitialMigration.cs",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\20260319025931_InitialMigration.cs",
+              "RelativeDocumentMoniker": "AMS\\Migrations\\20260319025931_InitialMigration.cs",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\20260319025931_InitialMigration.cs",
+              "RelativeToolTip": "AMS\\Migrations\\20260319025931_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:59:31.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AMS",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeToolTip": "AMS\\AMS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T07:14:08.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T06:22:14.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "20260320062538_AdditionalModels.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Migrations\\20260320062538_AdditionalModels.cs",
               "RelativeDocumentMoniker": "AMS\\Migrations\\20260320062538_AdditionalModels.cs",
@@ -214,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AttendanceDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\AttendanceDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\AttendanceDTO.cs",
@@ -226,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ClassDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\ClassDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\ClassDTO.cs",
@@ -238,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\appsettings.json",
               "RelativeDocumentMoniker": "AMS\\appsettings.json",
@@ -250,19 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "AMS\\Controllers\\AttendanceController.cs",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "AMS\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T14:07:25.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ClassController.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\ClassController.cs",
               "RelativeDocumentMoniker": "AMS\\Controllers\\ClassController.cs",
@@ -274,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EnrollmentController.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\EnrollmentController.cs",
               "RelativeDocumentMoniker": "AMS\\Controllers\\EnrollmentController.cs",
@@ -286,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TeachersController.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\TeachersController.cs",
               "RelativeDocumentMoniker": "AMS\\Controllers\\TeachersController.cs",
@@ -298,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EnrollmentDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\EnrollmentDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\EnrollmentDTO.cs",
@@ -310,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Student.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Student.cs",
@@ -322,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Enrollment.cs",
@@ -334,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Course.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Course.cs",
@@ -346,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CourseDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\CourseDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\CourseDTO.cs",
@@ -358,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Class.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Class.cs",
@@ -370,19 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Attendance.cs",
-              "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Attendance.cs",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Attendance.cs",
-              "RelativeToolTip": "AMS\\AMS\\Models\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T08:52:18.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "AMS\\Controllers\\CourseController.cs",
@@ -394,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\Models\\Teacher.cs",
@@ -406,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TeacherDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\TeacherDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\TeacherDTO.cs",
@@ -418,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "AMS\\Controllers\\StudentsController.cs",
@@ -430,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS\\DTO\\StudentDTO.cs",
               "RelativeDocumentMoniker": "AMS\\AMS\\DTO\\StudentDTO.cs",
@@ -442,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\appsettings.Development.json",
               "RelativeDocumentMoniker": "AMS\\appsettings.Development.json",
@@ -451,18 +467,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-16T08:47:30.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AMS.csproj",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
-              "ToolTip": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeToolTip": "AMS\\AMS.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-19T02:33:29.824Z"
             },
             {
               "$type": "Document",
