@@ -891,7 +891,7 @@
     "ContainingType": "AMS.Controllers.TeachersController",
     "Method": "GetTeacher",
     "RelativePath": "api/Teachers/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

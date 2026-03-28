@@ -126,23 +126,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AMS",
-              "DocumentMoniker": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
-              "ToolTip": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\AMS.csproj",
-              "RelativeToolTip": "AMS\\AMS.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-20T07:14:08.876Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -163,10 +148,21 @@
               "RelativeDocumentMoniker": "AMS\\Program.cs",
               "ToolTip": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\Program.cs",
               "RelativeToolTip": "AMS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T08:49:39.863Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AMS",
+              "DocumentMoniker": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeDocumentMoniker": "AMS\\AMS.csproj",
+              "ToolTip": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\AMS.csproj",
+              "RelativeToolTip": "AMS\\AMS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T07:14:08.876Z"
             },
             {
               "$type": "Document",
@@ -479,6 +475,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-03-07T08:47:46.555Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

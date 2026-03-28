@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VtV1oORuXbE=",
+  "dgSpecHash": "tYfJIIiMGxI=",
   "success": true,
-  "projectFilePath": "C:\\SPRAKATAKS\\SPRAKATAKS_AMS_DBTC\\BackEnd\\AMS\\AMS\\AMS.csproj",
+  "projectFilePath": "C:\\SPRAKATAKS\\BackEnd\\AMS\\AMS\\AMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

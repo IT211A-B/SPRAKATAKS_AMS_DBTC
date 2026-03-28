@@ -61,7 +61,7 @@ namespace AMS.Controllers
         /// <returns>The teacher record.</returns>
         /// <response code="200">Returns the teacher</response>
         /// <response code="404">Teacher not found</response>
-        [HttpGet("{id}")]
+        [HttpPost("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Teacher>> GetTeacher(int id)
